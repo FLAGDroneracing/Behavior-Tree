@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/flash/ascup_js/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/flash/ascup_js/src/planner/bspline_race/include/**",
+                "/home/flash/ascup_js/src/controller/bt/include/**",
+                "/home/flash/ascup_js/src/controller/fsm/include/**",
+                "/home/flash/ascup_js/src/planner/grid_path_searcher/include/**",
+                "/home/flash/ascup_js/src/utils/model_state/include/**",
+                "/home/flash/ascup_js/src/perception/perception_pkg/include/**",
+                "/home/flash/ascup_js/src/mapper/plan_env/include/**",
+                "/home/flash/ascup_js/src/gazebo_simulation/realsense_ros_gazebo/include/**",
+                "/home/flash/ascup_js/src/perception/ring_detection_pkg/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/devel/include",
+                "${workspaceFolder}/src/planner/grid_path_searcher/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

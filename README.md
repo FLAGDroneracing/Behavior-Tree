@@ -8,6 +8,7 @@
 参考bt.cpp与single_offboard.cpp的通信协议，前者配置了行为树决策逻辑，后者配置了px4的接口
 # 效果图
 同时启动两节点后，效果图如下
+![Uploading image.png…]()
 
 # 附件
 上传的工作空间包含了robomaster比赛中的行为树功能包bt
